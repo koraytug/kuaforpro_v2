@@ -1,0 +1,3 @@
+npx create-next-app kuaforpro_v2 with-jest --typescript
+npm install sass
+npm install mongodb mongoose next-auth
