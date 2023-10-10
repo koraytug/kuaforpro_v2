@@ -37,6 +37,9 @@ export default function Nav() {
                     session?.user ? (
                             <div className={styles.navRight}>
                                 <div className={styles.col}>
+                                    <Link href="/customerlist">Customer List</Link>
+                                </div>
+                                <div className={styles.col}>
                                     <Link href="/createcustomer">Create Customer</Link>
                                 </div>
                                 <div className={styles.col}>
